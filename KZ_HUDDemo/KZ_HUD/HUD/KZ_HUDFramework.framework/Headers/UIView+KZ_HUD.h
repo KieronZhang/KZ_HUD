@@ -12,25 +12,26 @@
 
 @property (nonatomic, assign) CGFloat HUDProgress;
 
-- (void)showHUD:(NSString *)HUD;
-- (void)showHUD:(NSString *)HUD content:(NSString *)content;
+- (void)showHUD:(NSString *)HUD animated:(BOOL)animated;
+- (void)showHUD:(NSString *)HUD content:(NSString *)content animated:(BOOL)animated;
 
-- (void)showProgressHUD:(NSString *)HUD;
-- (void)showProgressHUD:(NSString *)HUD content:(NSString *)content;
-- (void)showAnnularProgressHUD:(NSString *)HUD;
-- (void)showAnnularProgressHUD:(NSString *)HUD content:(NSString *)content;
-- (void)showBarProgressHUD:(NSString *)HUD;
-- (void)showBarProgressHUD:(NSString *)HUD content:(NSString *)content;
+- (void)showProgressHUD:(NSString *)HUD animated:(BOOL)animated;
+- (void)showProgressHUD:(NSString *)HUD content:(NSString *)content animated:(BOOL)animated;
+- (void)showAnnularProgressHUD:(NSString *)HUD animated:(BOOL)animated;
+- (void)showAnnularProgressHUD:(NSString *)HUD content:(NSString *)content animated:(BOOL)animated;
+- (void)showBarProgressHUD:(NSString *)HUD animated:(BOOL)animated;
+- (void)showBarProgressHUD:(NSString *)HUD content:(NSString *)content animated:(BOOL)animated;
 
-- (void)showTextHUD:(NSString *)HUD;
-- (void)showTextHUD:(NSString *)HUD content:(NSString *)content;
+- (void)showTextHUD:(NSString *)HUD animated:(BOOL)animated;
+- (void)showTextHUD:(NSString *)HUD content:(NSString *)content animated:(BOOL)animated;
 
-- (void)showCustomHUD:(NSString *)HUD customView:(UIView *)customView;
-- (void)showCustomHUD:(NSString *)HUD customView:(UIView *)customView content:(NSString *)content;
+- (void)showCustomHUD:(NSString *)HUD customView:(UIView *)customView animated:(BOOL)animated;
+- (void)showCustomHUD:(NSString *)HUD customView:(UIView *)customView content:(NSString *)content animated:(BOOL)animated;
 
 - (void)addHUDButtonWithTitle:(NSString *)title target:(id)target action:(SEL)action;
 
 - (void)hideHUD;
+- (void)hideHUDWithAnimated:(BOOL)animated;
 
 @end
 

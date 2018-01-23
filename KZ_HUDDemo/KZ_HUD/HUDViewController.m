@@ -19,7 +19,6 @@
     [super viewDidLoad];
     self.title = @"HUD";
     
-//    [KZ_HUDManager sharedManager].backgroundColor = [UIColor blueColor];
     [KZ_HUDManager sharedManager].activityColor = [UIColor yellowColor];
     [KZ_HUDManager sharedManager].HUDColor = [UIColor redColor];
     [KZ_HUDManager sharedManager].contentColor = [UIColor greenColor];
@@ -49,13 +48,13 @@
 }
 
 - (void)switchProgressHUD {
-    [self.view showProgressHUD:@"This is a Progress HUD"];
+    [self.view showProgressHUD:@"This is a Progress HUD" animated:NO];
     [self updateSwitchHUDProgress:@(0)];
 }
 
 - (void)updateSwitchHUDProgress:(NSNumber *)progress {
     if (progress.floatValue > 1) {
-        [self.view showCustomHUD:@"This is a Custom HUD" customView:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Checkmark"]]];
+        [self.view showCustomHUD:@"This is a Custom HUD" customView:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Checkmark"]] animated:NO];
         [self.view performSelector:@selector(hideHUD) withObject:nil afterDelay:3.0f];
         return;
     }
@@ -64,6 +63,7 @@
 }
 
 - (void)actionHUDButton {
+    [self.view hideHUD];
     NSLog(@"actionHUDButton");
 }
 
@@ -91,58 +91,57 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     if (indexPath.section == 0) {
         if (indexPath.row == 0) {
-            [self.view showHUD:nil];
+            [self.view showHUD:nil animated:YES];
         }
         else if (indexPath.row == 1) {
-            [self.view showHUD:@"This is an HUD With Title"];
+            [self.view showHUD:@"This is an HUD With Title" animated:YES];
         }
         else if (indexPath.row == 2) {
-            [self.view showHUD:@"This is an HUD With Title And Content" content:@"Parsing data\n(1/1)"];
+            [self.view showHUD:@"This is an HUD With Title And Content" content:@"Parsing data\n(1/1)" animated:YES];
         }
         [self.view performSelector:@selector(hideHUD) withObject:nil afterDelay:3.0f];
     }
     else if (indexPath.section == 1) {
         if (indexPath.row == 0) {
-            [self.view showProgressHUD:@"This is a Progress HUD"];
-            [self updateHUDProgress:@(0)];
+            [self.view showProgressHUD:@"This is a Progress HUD" animated:YES];
         }
         else if (indexPath.row == 1) {
-            [self.view showAnnularProgressHUD:@"This is an Annular Progress HUD"];
+            [self.view showAnnularProgressHUD:@"This is an Annular Progress HUD" animated:YES];
             [self updateHUDProgress:@(0)];
         }
         else if (indexPath.row == 2) {
-            [self.view showBarProgressHUD:@"This is a Bar Progress HUD"];
+            [self.view showBarProgressHUD:@"This is a Bar Progress HUD" animated:YES];
             [self updateHUDProgress:@(0)];
         }
     }
     else if (indexPath.section == 2) {
         if (indexPath.row == 0) {
-            [self.view showTextHUD:@"This is a Text HUD"];
+            [self.view showTextHUD:@"This is a Text HUD" animated:YES];
         }
         else if (indexPath.row == 1) {
-            [self.view showTextHUD:@"This is a Text HUD And Content" content:@"Parsing data\n(1/1)"];
+            [self.view showTextHUD:@"This is a Text HUD And Content" content:@"Parsing data\n(1/1)" animated:YES];
         }
         [self.view performSelector:@selector(hideHUD) withObject:nil afterDelay:3.0f];
     }
     else if (indexPath.section == 3) {
         if (indexPath.row == 0) {
-            [self.view showCustomHUD:@"This is a Custom HUD" customView:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Checkmark"]]];
+            [self.view showCustomHUD:@"This is a Custom HUD" customView:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Checkmark"]] animated:YES];
         }
         else if (indexPath.row == 1) {
-            [self.view showCustomHUD:@"This is a Custom HUD" customView:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Checkmark"]] content:@"Parsing data\n(1/1)"];
+            [self.view showCustomHUD:@"This is a Custom HUD" customView:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Checkmark"]] content:@"Parsing data\n(1/1)" animated:YES];
         }
         [self.view performSelector:@selector(hideHUD) withObject:nil afterDelay:3.0f];
     }
     else if (indexPath.section == 4) {
         if (indexPath.row == 0) {
-            [self.view showHUD:@"This is an HUD With Title"];
-            [self.view addHUDButtonWithTitle:@"Cancel" target:self.view action:@selector(hideHUD)];
+            [self.view showHUD:@"This is an HUD With Title" animated:YES];
+            [self.view addHUDButtonWithTitle:@"Cancel" target:self action:@selector(actionHUDButton)];
         }
         [self.view performSelector:@selector(hideHUD) withObject:nil afterDelay:3.0f];
     }
     else if (indexPath.section == 5) {
         if (indexPath.row == 0) {
-            [self.view showHUD:@"This is an HUD"];
+            [self.view showHUD:@"This is an HUD" animated:YES];
             [self performSelector:@selector(switchProgressHUD) withObject:nil afterDelay:3.0f];
         }
     }

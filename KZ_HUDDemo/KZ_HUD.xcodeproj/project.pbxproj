@@ -14,8 +14,8 @@
 		AEB542AA20172F7A00C72DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB542A920172F7A00C72DF0 /* Assets.xcassets */; };
 		AEB542AD20172F7A00C72DF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB542AB20172F7A00C72DF0 /* LaunchScreen.storyboard */; };
 		AEB542B020172F7A00C72DF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB542AF20172F7A00C72DF0 /* main.m */; };
-		AEB542BA201731C800C72DF0 /* KZ_HUDFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB542B9201731C800C72DF0 /* KZ_HUDFramework.framework */; };
 		AEB542BD201731F600C72DF0 /* HUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB542BB201731F600C72DF0 /* HUDViewController.m */; };
+		AEB542BF2017378100C72DF0 /* KZ_HUDFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB542BE2017378100C72DF0 /* KZ_HUDFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +32,9 @@
 		AEB542AC20172F7A00C72DF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEB542AE20172F7A00C72DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEB542AF20172F7A00C72DF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AEB542B9201731C800C72DF0 /* KZ_HUDFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_HUDFramework.framework; sourceTree = "<group>"; };
 		AEB542BB201731F600C72DF0 /* HUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDViewController.m; sourceTree = "<group>"; };
 		AEB542BC201731F600C72DF0 /* HUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDViewController.h; sourceTree = "<group>"; };
+		AEB542BE2017378100C72DF0 /* KZ_HUDFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_HUDFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEB542BA201731C800C72DF0 /* KZ_HUDFramework.framework in Frameworks */,
+				AEB542BF2017378100C72DF0 /* KZ_HUDFramework.framework in Frameworks */,
 				78CEF22BB0CEE46C1E14D466 /* Pods_KZ_HUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,7 +98,7 @@
 		AEB542B620172F8600C72DF0 /* HUD */ = {
 			isa = PBXGroup;
 			children = (
-				AEB542B9201731C800C72DF0 /* KZ_HUDFramework.framework */,
+				AEB542BE2017378100C72DF0 /* KZ_HUDFramework.framework */,
 			);
 			path = HUD;
 			sourceTree = "<group>";
