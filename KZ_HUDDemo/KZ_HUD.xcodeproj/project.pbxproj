@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78CEF22BB0CEE46C1E14D466 /* Pods_KZ_HUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26FB3D8D231CD9892667B781 /* Pods_KZ_HUD.framework */; };
+		AEB542A220172F7A00C72DF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB542A120172F7A00C72DF0 /* AppDelegate.m */; };
+		AEB542A520172F7A00C72DF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB542A420172F7A00C72DF0 /* ViewController.m */; };
+		AEB542A820172F7A00C72DF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB542A620172F7A00C72DF0 /* Main.storyboard */; };
+		AEB542AA20172F7A00C72DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB542A920172F7A00C72DF0 /* Assets.xcassets */; };
+		AEB542AD20172F7A00C72DF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB542AB20172F7A00C72DF0 /* LaunchScreen.storyboard */; };
+		AEB542B020172F7A00C72DF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB542AF20172F7A00C72DF0 /* main.m */; };
+		AEB542BA201731C800C72DF0 /* KZ_HUDFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB542B9201731C800C72DF0 /* KZ_HUDFramework.framework */; };
+		AEB542BD201731F600C72DF0 /* HUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB542BB201731F600C72DF0 /* HUDViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26FB3D8D231CD9892667B781 /* Pods_KZ_HUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_HUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		880990B7350A65655163E45E /* Pods-KZ_HUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_HUD.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_HUD/Pods-KZ_HUD.release.xcconfig"; sourceTree = "<group>"; };
+		9651EEBBFA39CA8FB41FDFE1 /* Pods-KZ_HUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_HUD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_HUD/Pods-KZ_HUD.debug.xcconfig"; sourceTree = "<group>"; };
+		AEB5429D20172F7A00C72DF0 /* KZ_HUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_HUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB542A020172F7A00C72DF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEB542A120172F7A00C72DF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEB542A320172F7A00C72DF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEB542A420172F7A00C72DF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEB542A720172F7A00C72DF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEB542A920172F7A00C72DF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEB542AC20172F7A00C72DF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEB542AE20172F7A00C72DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEB542AF20172F7A00C72DF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEB542B9201731C800C72DF0 /* KZ_HUDFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_HUDFramework.framework; sourceTree = "<group>"; };
+		AEB542BB201731F600C72DF0 /* HUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDViewController.m; sourceTree = "<group>"; };
+		AEB542BC201731F600C72DF0 /* HUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEB5429A20172F7A00C72DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB542BA201731C800C72DF0 /* KZ_HUDFramework.framework in Frameworks */,
+				78CEF22BB0CEE46C1E14D466 /* Pods_KZ_HUD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BE9917F6D014B88FDDCA401 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26FB3D8D231CD9892667B781 /* Pods_KZ_HUD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEB5429420172F7A00C72DF0 = {
+			isa = PBXGroup;
+			children = (
+				AEB5429F20172F7A00C72DF0 /* KZ_HUD */,
+				AEB5429E20172F7A00C72DF0 /* Products */,
+				F1A826FBC25EB84A0A7DA2CB /* Pods */,
+				3BE9917F6D014B88FDDCA401 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AEB5429E20172F7A00C72DF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEB5429D20172F7A00C72DF0 /* KZ_HUD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEB5429F20172F7A00C72DF0 /* KZ_HUD */ = {
+			isa = PBXGroup;
+			children = (
+				AEB542A020172F7A00C72DF0 /* AppDelegate.h */,
+				AEB542A120172F7A00C72DF0 /* AppDelegate.m */,
+				AEB542A320172F7A00C72DF0 /* ViewController.h */,
+				AEB542A420172F7A00C72DF0 /* ViewController.m */,
+				AEB542BC201731F600C72DF0 /* HUDViewController.h */,
+				AEB542BB201731F600C72DF0 /* HUDViewController.m */,
+				AEB542B620172F8600C72DF0 /* HUD */,
+				AEB542A620172F7A00C72DF0 /* Main.storyboard */,
+				AEB542A920172F7A00C72DF0 /* Assets.xcassets */,
+				AEB542AB20172F7A00C72DF0 /* LaunchScreen.storyboard */,
+				AEB542AE20172F7A00C72DF0 /* Info.plist */,
+				AEB542AF20172F7A00C72DF0 /* main.m */,
+			);
+			path = KZ_HUD;
+			sourceTree = "<group>";
+		};
+		AEB542B620172F8600C72DF0 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				AEB542B9201731C800C72DF0 /* KZ_HUDFramework.framework */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		F1A826FBC25EB84A0A7DA2CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9651EEBBFA39CA8FB41FDFE1 /* Pods-KZ_HUD.debug.xcconfig */,
+				880990B7350A65655163E45E /* Pods-KZ_HUD.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEB5429C20172F7A00C72DF0 /* KZ_HUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB542B320172F7A00C72DF0 /* Build configuration list for PBXNativeTarget "KZ_HUD" */;
+			buildPhases = (
+				3C13E5BDCAE40554E6859472 /* [CP] Check Pods Manifest.lock */,
+				AEB5429920172F7A00C72DF0 /* Sources */,
+				AEB5429A20172F7A00C72DF0 /* Frameworks */,
+				AEB5429B20172F7A00C72DF0 /* Resources */,
+				B307846F65B98630FD05250C /* [CP] Embed Pods Frameworks */,
+				88F2B2C827F71C56728CA7E6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KZ_HUD;
+			productName = KZ_HUD;
+			productReference = AEB5429D20172F7A00C72DF0 /* KZ_HUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEB5429520172F7A00C72DF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kieron Zhang";
+				TargetAttributes = {
+					AEB5429C20172F7A00C72DF0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AEB5429820172F7A00C72DF0 /* Build configuration list for PBXProject "KZ_HUD" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEB5429420172F7A00C72DF0;
+			productRefGroup = AEB5429E20172F7A00C72DF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEB5429C20172F7A00C72DF0 /* KZ_HUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEB5429B20172F7A00C72DF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB542AD20172F7A00C72DF0 /* LaunchScreen.storyboard in Resources */,
+				AEB542AA20172F7A00C72DF0 /* Assets.xcassets in Resources */,
+				AEB542A820172F7A00C72DF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C13E5BDCAE40554E6859472 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KZ_HUD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88F2B2C827F71C56728CA7E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KZ_HUD/Pods-KZ_HUD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B307846F65B98630FD05250C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KZ_HUD/Pods-KZ_HUD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEB5429920172F7A00C72DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB542A520172F7A00C72DF0 /* ViewController.m in Sources */,
+				AEB542B020172F7A00C72DF0 /* main.m in Sources */,
+				AEB542BD201731F600C72DF0 /* HUDViewController.m in Sources */,
+				AEB542A220172F7A00C72DF0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEB542A620172F7A00C72DF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB542A720172F7A00C72DF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEB542AB20172F7A00C72DF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB542AC20172F7A00C72DF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEB542B120172F7A00C72DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEB542B220172F7A00C72DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEB542B420172F7A00C72DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9651EEBBFA39CA8FB41FDFE1 /* Pods-KZ_HUD.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TGTFTDLM8G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZ_HUD/HUD",
+				);
+				INFOPLIST_FILE = KZ_HUD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.HUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEB542B520172F7A00C72DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 880990B7350A65655163E45E /* Pods-KZ_HUD.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TGTFTDLM8G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZ_HUD/HUD",
+				);
+				INFOPLIST_FILE = KZ_HUD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.HUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEB5429820172F7A00C72DF0 /* Build configuration list for PBXProject "KZ_HUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB542B120172F7A00C72DF0 /* Debug */,
+				AEB542B220172F7A00C72DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEB542B320172F7A00C72DF0 /* Build configuration list for PBXNativeTarget "KZ_HUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB542B420172F7A00C72DF0 /* Debug */,
+				AEB542B520172F7A00C72DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEB5429520172F7A00C72DF0 /* Project object */;
+}
