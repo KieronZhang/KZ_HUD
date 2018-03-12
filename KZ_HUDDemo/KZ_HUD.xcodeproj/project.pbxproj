@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		78CEF22BB0CEE46C1E14D466 /* Pods_KZ_HUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26FB3D8D231CD9892667B781 /* Pods_KZ_HUD.framework */; };
+		AE8F7DF22056AC8B0087F309 /* KZ_HUDFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8F7DF12056AC8B0087F309 /* KZ_HUDFramework.framework */; };
 		AEB542A220172F7A00C72DF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB542A120172F7A00C72DF0 /* AppDelegate.m */; };
 		AEB542A520172F7A00C72DF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB542A420172F7A00C72DF0 /* ViewController.m */; };
 		AEB542A820172F7A00C72DF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB542A620172F7A00C72DF0 /* Main.storyboard */; };
@@ -15,13 +16,13 @@
 		AEB542AD20172F7A00C72DF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB542AB20172F7A00C72DF0 /* LaunchScreen.storyboard */; };
 		AEB542B020172F7A00C72DF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB542AF20172F7A00C72DF0 /* main.m */; };
 		AEB542BD201731F600C72DF0 /* HUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB542BB201731F600C72DF0 /* HUDViewController.m */; };
-		AEB542BF2017378100C72DF0 /* KZ_HUDFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB542BE2017378100C72DF0 /* KZ_HUDFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		26FB3D8D231CD9892667B781 /* Pods_KZ_HUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_HUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		880990B7350A65655163E45E /* Pods-KZ_HUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_HUD.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_HUD/Pods-KZ_HUD.release.xcconfig"; sourceTree = "<group>"; };
 		9651EEBBFA39CA8FB41FDFE1 /* Pods-KZ_HUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_HUD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_HUD/Pods-KZ_HUD.debug.xcconfig"; sourceTree = "<group>"; };
+		AE8F7DF12056AC8B0087F309 /* KZ_HUDFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_HUDFramework.framework; sourceTree = "<group>"; };
 		AEB5429D20172F7A00C72DF0 /* KZ_HUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_HUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB542A020172F7A00C72DF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEB542A120172F7A00C72DF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,7 +35,6 @@
 		AEB542AF20172F7A00C72DF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEB542BB201731F600C72DF0 /* HUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDViewController.m; sourceTree = "<group>"; };
 		AEB542BC201731F600C72DF0 /* HUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDViewController.h; sourceTree = "<group>"; };
-		AEB542BE2017378100C72DF0 /* KZ_HUDFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_HUDFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEB542BF2017378100C72DF0 /* KZ_HUDFramework.framework in Frameworks */,
+				AE8F7DF22056AC8B0087F309 /* KZ_HUDFramework.framework in Frameworks */,
 				78CEF22BB0CEE46C1E14D466 /* Pods_KZ_HUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,7 +98,7 @@
 		AEB542B620172F8600C72DF0 /* HUD */ = {
 			isa = PBXGroup;
 			children = (
-				AEB542BE2017378100C72DF0 /* KZ_HUDFramework.framework */,
+				AE8F7DF12056AC8B0087F309 /* KZ_HUDFramework.framework */,
 			);
 			path = HUD;
 			sourceTree = "<group>";

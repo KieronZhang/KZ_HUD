@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
     s.name = 'KZ_HUD'
-    s.version = '0.1'
+    s.version = '0.1.1'
     s.summary = 'iOS HUD.'
     s.homepage = 'https://github.com/KieronZhang/KZ_HUD'
     s.license = {:type => 'MIT', :file => 'LICENSE'}
