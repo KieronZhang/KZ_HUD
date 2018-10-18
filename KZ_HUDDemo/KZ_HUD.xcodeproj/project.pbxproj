@@ -14,7 +14,7 @@
 		AE40033320A299A500017619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE40033120A299A500017619 /* LaunchScreen.storyboard */; };
 		AE40033620A299A500017619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40033520A299A500017619 /* main.m */; };
 		AE40033C20A29A3E00017619 /* HUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40033B20A29A3E00017619 /* HUDViewController.m */; };
-		AE40033F20A29A6D00017619 /* KZ_HUD_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE40033E20A29A6D00017619 /* KZ_HUD_iOS.framework */; };
+		AEF94DD82178312D0063EE69 /* KZ_HUD_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94DD72178312C0063EE69 /* KZ_HUD_iOS.framework */; };
 		BDEAEF607F1F701A77874A1A /* Pods_KZ_HUD_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564309EF2599C8371394523F /* Pods_KZ_HUD_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 		AE40033520A299A500017619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE40033A20A29A3E00017619 /* HUDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUDViewController.h; sourceTree = "<group>"; };
 		AE40033B20A29A3E00017619 /* HUDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUDViewController.m; sourceTree = "<group>"; };
-		AE40033E20A29A6D00017619 /* KZ_HUD_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_HUD_iOS.framework; sourceTree = "<group>"; };
+		AEF94DD72178312C0063EE69 /* KZ_HUD_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_HUD_iOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,8 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE40033F20A29A6D00017619 /* KZ_HUD_iOS.framework in Frameworks */,
 				BDEAEF607F1F701A77874A1A /* Pods_KZ_HUD_iOS.framework in Frameworks */,
+				AEF94DD82178312D0063EE69 /* KZ_HUD_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 		AE40033D20A29A6D00017619 /* HUD */ = {
 			isa = PBXGroup;
 			children = (
-				AE40033E20A29A6D00017619 /* KZ_HUD_iOS.framework */,
+				AEF94DD72178312C0063EE69 /* KZ_HUD_iOS.framework */,
 			);
 			path = HUD;
 			sourceTree = "<group>";
@@ -361,7 +361,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-HUD-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.HUD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -385,7 +385,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-HUD-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.HUD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
