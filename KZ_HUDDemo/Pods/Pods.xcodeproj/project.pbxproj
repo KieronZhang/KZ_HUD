@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,7 +15,7 @@
 /* Begin PBXFileReference section */
 		20DE236C26B04400C1ACA8AC7DFF7703 /* Pods-KZ_HUD_iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KZ_HUD_iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2889C81B9C568D6E69F441CB7407C705 /* Pods-KZ_HUD_iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZ_HUD_iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		2DC296A0D39AEA60F54B5E093FB83C70 /* Pods_KZ_HUD_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KZ_HUD_iOS.framework; path = "Pods-KZ_HUD_iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC296A0D39AEA60F54B5E093FB83C70 /* Pods_KZ_HUD_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_HUD_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		459928240B8CEFE08D776C21D32D69B5 /* Pods-KZ_HUD_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_HUD_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		51482DB38F0B86B6D3AAFE32A1A91E09 /* KZ_JSON_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_JSON_iOS.framework; path = KZ_JSON/KZ_JSON_iOS.framework; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -24,7 +24,7 @@
 		72C217CB2A2E69BD96D6CC60E3F59102 /* KZ_Categories_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_Categories_iOS.framework; path = KZ_Categories/KZ_Categories_iOS.framework; sourceTree = "<group>"; };
 		7CA815A8E1760C05678E055BF6C2C8A3 /* Pods-KZ_HUD_iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KZ_HUD_iOS-frameworks.sh"; sourceTree = "<group>"; };
 		8034D02EA1BB17EA8C64A07F6F46D696 /* Pods-KZ_HUD_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KZ_HUD_iOS-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AEF7285C919CBE7DCE8832D15EC5C931 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C82E12FD9D49E58EA6440AFB407D2E1A /* Pods-KZ_HUD_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KZ_HUD_iOS.modulemap"; sourceTree = "<group>"; };
 		EA556843B440F15470503FEB0479EE1A /* Pods-KZ_HUD_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KZ_HUD_iOS-umbrella.h"; sourceTree = "<group>"; };
@@ -99,7 +99,6 @@
 			children = (
 				0E307B5B475ED03C9079E3B6CC4C79BB /* Frameworks */,
 			);
-			name = KZ_JSON;
 			path = KZ_JSON;
 			sourceTree = "<group>";
 		};
@@ -142,7 +141,6 @@
 			children = (
 				22F3AFA53A6128C06D1A3CDC22952DB6 /* Frameworks */,
 			);
-			name = KZ_Categories;
 			path = KZ_Categories;
 			sourceTree = "<group>";
 		};
@@ -185,14 +183,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = 4FE17656222C4C5CB87F39632DE531D9 /* Products */;
@@ -243,11 +242,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-KZ_HUD_iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-KZ_HUD_iOS/Pods-KZ_HUD_iOS.modulemap";
 				OTHER_LDFLAGS = "";
@@ -281,11 +276,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-KZ_HUD_iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-KZ_HUD_iOS/Pods-KZ_HUD_iOS.modulemap";
 				OTHER_LDFLAGS = "";
@@ -305,6 +296,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -364,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
